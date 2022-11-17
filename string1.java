@@ -2,30 +2,35 @@
 public class string1 {
 
 	public static void main(String[] args) {
-		 String S[]= {"20","30"};
-		 
-		 
-		 System.out.println("The sum of numbers :"+S[0]+S[1]);
-		 
-		 
-		 int x=Integer.parseInt(S[0]);
-		 
-		 int y=Integer.parseInt(S[1]);
-		 
-		 
-		 int Summation=x+y;
-		 
-		 System.out.println("The value of x:"+x);
-		 
-		 System.out.println("The value of y:"+y);
-		 
-		 System.out.println("Sum of numbers is :"+Summation);
-		 
-		 System.out.println("The product of x and y is :"+x+"*"+y+"="+x*y);
-		 System.out.println("The summation of x and y is :"+x+"+"+y+"="+(x+y));
-		 System.out.println("The subtraction of x and y is :"+x+"-"+y+"="+(x-y));
-		 System.out.println("The division of x and y is :"+x+"/"+y+"="+(x/y));
-		 
+
+
+
+
+		
+		String s1="Shahid";
+		String s2="Leghari";
+		
+		System.out.println("Combination                           :"+s1.concat(s2));
+		System.out.println("Character at 5 s1                     :"+s1.charAt(5));
+		
+		System.out.println("Compare two string                    :"+s1.compareTo(s2));
+		
+		System.out.println("Compare without consideration of case :"+s1.equalsIgnoreCase(s2));
+		
+		System.out.println("Hash code of string 2                 :"+s2.hashCode());
+		
+		System.out.println("Sub string of 2                       :"+s2.substring(5));
+		
+		System.out.println("String s1 upppercae                   :"+s1.toUpperCase());
+		
+		System.out.println("String s2 lowercase                   :"+s2.toLowerCase());
+		
+		System.out.println("String to trim s1                     :"+s1.trim());
+		
+		System.out.println("String to trim s2                     :"+s2.trim());
+
+
+
 
 	}
 
